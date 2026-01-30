@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+            padding: 20px;
+            font-family: Arial, sans-serif;
+
+        }
+
+        #wtd {
+            /* border: 1px solid; */
+            /* border-radius: 10px; */
+            /* text-align: center; */
+            /* background-color: rgb(214, 168, 67); */
+            color: black;
+            margin: 0px;
+            display: flex;
+
+        }
+
+        #nevbar {
+            border: 2px;
+            border-radius: 8px;
+            /* text-align: right; */
+        }
+
+        #nevbar a {
+            color: black;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .input-box {
+            margin-bottom: 15px;
+        }
+        .input-box span {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-box input[type="text"],
+        .input-box input[type="email"],
+        .input-box input[type="tel"],
+        .input-box input[type="password"],
+        .input-box input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .button {
+            text-align: center;
+        }
+        .button input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .button input[type="reset"] {
+            background-color: #f44336;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button input[type="reset"]:hover {
+            background-color: #da190b;
+        }
+        .button input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div id="wtd">
+        <h1> WELCOME TO PWD NAUKRI PORTAL</h1>
+        <img src="digital india.png" alt="" srcset="">
+    </div>
+    <!-- <div id="nevbar">
+        <a class="a-nevbar" href="home.html">Home</a>
+        <a class="a-nevbar" href="about.html"> About us</a>
+        <a class="a-nevbar" href="register.html">Register</a>
+        <a class="a-nevbar" href="login.html">Login</a>
+        <a class="a-nevbar" href="status.html">Status</a>
+    </div> -->
+    <!-- <div>
+    <h1>Application details</h1>
+    <p>Fill in your details to apply for a job.</p>
+</div> -->
+    <div class="container">
+        <div class="title">Registation</div>
+        <form action="submit_application.php" method="post">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Name: </span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name: </span>
+                    <input type="text" placeholder="Enter last name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Father Name: </span>
+                    <input type="text" placeholder="Father name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Mother Name </span>
+                    <input type="text" placeholder="Mother name">
+                </div>
+                <div class="input-box">
+                    <span class="details">Email: </span>
+                    <input type="email" placeholder="Example@gmail.com">
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number: </span>
+                    <input type="tel" placeholder="10-digit number">
+                </div>
+                <div class="input-bo">
+                    <span class="details">Gender </span>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Other
+                </div> <br>
+
+                <div class="input-box">
+                    <span class="details">Password: </span>
+                    <input type="password" placeholder="Abcd@1234">
+                </div>
+
+
+                <div class="input-box">
+                    <span class="details">Date of Birth: </span>
+                    <input type="date" placeholder="Enter your DOB">
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
